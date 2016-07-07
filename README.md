@@ -1,4 +1,4 @@
-# Ruby Debian Packages
+# Installing Ruby Sucks
 
 Guys, let's talk. It's 2016. Somehow, installing Ruby is still :poop:. Using
 RVM or rbenv in your production environments is a horrible idea. Why can't I
