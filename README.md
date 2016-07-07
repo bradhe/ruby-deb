@@ -4,6 +4,13 @@ It's 2016. Installing Ruby still sucks. Using RVM or rbenv in your production
 environments is a horrible idea. Why can't I just install this from a deb
 package?
 
+## Download and install Ruby 2.3.1 from a Deb package
+
+```bash
+$ curl https://s3.amazonaws.com/bradhe-packages/ruby-2.3.1.deb > ruby-2.3.1.deb
+$ dpkg -i ./ruby-2.3.1.deb
+```
+
 ## How it works
 
 It's pretty straight forward.
