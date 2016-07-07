@@ -1,8 +1,8 @@
 # Ruby Debian Packages
 
-It's 2016. Installing Ruby still sucks. Using RVM or rbenv in your production
-environments is a horrible idea. Why can't I just install this from a deb
-package?
+Guys, let's talk. It's 2016. Somehow, installing Ruby is still :poop:. Using
+RVM or rbenv in your production environments is a horrible idea. Why can't I
+just install this from a f*@!ing deb package?
 
 ## Download and install Ruby 2.3.1 from a Deb package
 
