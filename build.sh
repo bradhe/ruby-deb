@@ -9,6 +9,7 @@ DEST=${DIRNAME}-files
 
 VERSION=2.3.1
 PACKAGE_NAME=ruby
+PACKAGE_VERSION=1:${VERSION}.0
 USER=`whoami`
 
 LICENSE='GPLv2'
@@ -104,8 +105,9 @@ rm ./*.deb
 #
 # Now let's create the actual package.
 fpm -s dir -t deb --name ${PACKAGE_NAME} \
+  --package ${PACKAGE_NAME}-${VERSION}-amd64.deb \
   --architecture amd64 \
-  --version "${VERSION}" \
+  --version "${PACKAGE_VERSION}" \
   --license "${LICENSE}" \
   --description "${DESCRIPTION}" \
   --vendor "${VENDOR}" \
